@@ -72,6 +72,10 @@ function normalizeSection(value) {
   return String(value || "").trim().toLowerCase();
 }
 
+function internalKeyOfQuestion(q) {
+  return q && q._sid != null ? `sid:${q._sid}` : undefined;
+}
+
 function isCarSection(section) {
   return !section || section === "car" || section === "standard";
 }
@@ -100,7 +104,7 @@ function buildSectionFilterOptions() {
 
 function applyMasteredFilter() {
   state.questions = state.allQuestions.filter((q) => {
-    if (state.mastered.has(q.number)) return false;
+    if (state.mastered.has(internalKeyOfQuestion(q))) return false;
     if (state.activeSection === "all") return true;
     const section = normalizeSection(q.section);
     if (state.activeSection === "motorcycle") return section === "motorcycle";
@@ -111,15 +115,15 @@ function applyMasteredFilter() {
 
 function keyOf(qIdx) {
   const q = state.questions[qIdx];
-  return q ? q.number : undefined;
+  return internalKeyOfQuestion(q);
 }
 
 function updateProgress() {
   // Count only selections that belong to currently visible questions.
-  const visibleKeys = new Set(state.questions.map((q) => q.number));
+  const visibleKeys = new Set(state.questions.map((q) => internalKeyOfQuestion(q)));
   let answered = 0;
   for (const k of Object.keys(state.selections)) {
-    if (visibleKeys.has(Number(k)) || visibleKeys.has(k)) answered++;
+    if (visibleKeys.has(k)) answered++;
   }
   el.progress.textContent = `${answered} / ${state.questions.length}`;
 }
@@ -145,7 +149,7 @@ function buildCard(q, qIdx) {
   const card = document.createElement("article");
   card.className = "card";
   card.dataset.qIndex = qIdx;
-  if (state.cheats[q.number]) card.classList.add("cheat-on");
+  if (state.cheats[internalKeyOfQuestion(q)]) card.classList.add("cheat-on");
 
   // Header
   const header = document.createElement("div");
@@ -251,7 +255,7 @@ function setRating(qIdx, value) {
 
 function applyCardState(card, qIdx) {
   const q = state.questions[qIdx];
-  const key = q.number;
+  const key = internalKeyOfQuestion(q);
   const selected = state.selections[key];
   const cheatOn = !!state.cheats[key];
   const finished = state.finished;
@@ -328,11 +332,12 @@ function finishQuiz() {
   let score = 0;
   const newlyMastered = [];
   state.questions.forEach((q, qIdx) => {
-    const sel = state.selections[q.number];
+    const qKey = internalKeyOfQuestion(q);
+    const sel = state.selections[qKey];
     const isCorrect = sel != null && q.answers[sel] && q.answers[sel].correct;
     if (isCorrect) score++;
-    if (isCorrect && state.ratings[q.number] === "easy" && q.number != null) {
-      newlyMastered.push(q.number);
+    if (isCorrect && state.ratings[qKey] === "easy" && q.number != null) {
+      newlyMastered.push(qKey);
     }
   });
   if (newlyMastered.length) {
@@ -343,7 +348,7 @@ function finishQuiz() {
     const qIdx = Number(card.dataset.qIndex);
     applyCardState(card, qIdx);
     const q = state.questions[qIdx];
-    if (q && newlyMastered.includes(q.number)) {
+    if (q && newlyMastered.includes(internalKeyOfQuestion(q))) {
       card.classList.add("hidden");
     }
   });
@@ -352,10 +357,10 @@ function finishQuiz() {
   // then correct-hard, correct-medium, correct-unrated, then unanswered last.
   // (Correct + easy is mastered/hidden so it doesn't appear.)
   const priority = (q) => {
-    const sel = state.selections[q.number];
+    const sel = state.selections[internalKeyOfQuestion(q)];
     if (sel == null) return 7; // unanswered → last
     const isCorrect = q.answers[sel] && q.answers[sel].correct;
-    const rating = state.ratings[q.number];
+    const rating = state.ratings[internalKeyOfQuestion(q)];
     if (!isCorrect) {
       if (rating === "easy")   return 0;
       if (rating === "medium") return 1;
@@ -373,7 +378,7 @@ function finishQuiz() {
     const pa = priority(qa);
     const pb = priority(qb);
     if (pa !== pb) return pa - pb;
-    return (qa.number ?? 0) - (qb.number ?? 0);
+    return (qa._sid ?? 0) - (qb._sid ?? 0);
   });
   cards.forEach((c) => el.quiz.appendChild(c));
 
@@ -440,6 +445,10 @@ async function init() {
     el.quiz.innerHTML = `<div class="card"><p style="color:var(--wrong)">تعذّر تحميل الأسئلة: ${err.message}</p></div>`;
     return;
   }
+  state.allQuestions = state.allQuestions.map((q, idx) => ({
+    ...q,
+    _sid: idx + 1,
+  }));
   buildSectionFilterOptions();
   applyMasteredFilter();
   console.log("[quiz] mastered:", [...state.mastered], "visible:", state.questions.length, "/", state.allQuestions.length);
