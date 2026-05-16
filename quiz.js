@@ -4,6 +4,7 @@ const STORAGE_KEY = "quiz_selections_v1";
 const CHEAT_KEY = "quiz_cheat_v1";
 const RATING_KEY = "quiz_ratings_v1";
 const MASTERED_KEY = "quiz_mastered_v1";
+const SECTION_KEY = "quiz_section_v1";
 
 const DIFFICULTIES = [
   { value: "easy",   label: "سهل" },
@@ -18,6 +19,7 @@ const state = {
   cheats: {},       // qIndex -> true
   ratings: {},      // qIndex -> 'easy' | 'medium' | 'hard'
   mastered: new Set(), // set of question.number values
+  activeSection: "all",
   finished: false,
 };
 
@@ -27,6 +29,7 @@ const el = {
   finishBtn: document.getElementById("finishBtn"),
   resetBtn: document.getElementById("resetBtn"),
   loadAllBtn: document.getElementById("loadAllBtn"),
+  sectionFilter: document.getElementById("sectionFilter"),
   retryBtn: document.getElementById("retryBtn"),
   resultBar: document.getElementById("resultBar"),
   resultText: document.getElementById("resultText"),
@@ -46,6 +49,7 @@ function loadStorage() {
     const arr = JSON.parse(localStorage.getItem(MASTERED_KEY) || "[]") || [];
     state.mastered = new Set(arr);
   } catch { state.mastered = new Set(); }
+  state.activeSection = localStorage.getItem(SECTION_KEY) || "all";
 }
 
 function persistSelections() {
@@ -60,11 +64,49 @@ function persistRatings() {
 function persistMastered() {
   localStorage.setItem(MASTERED_KEY, JSON.stringify([...state.mastered]));
 }
+function persistSection() {
+  localStorage.setItem(SECTION_KEY, state.activeSection);
+}
+
+function normalizeSection(value) {
+  return String(value || "").trim().toLowerCase();
+}
+
+function isCarSection(section) {
+  return !section || section === "car" || section === "standard";
+}
+
+function getSectionLabel(value) {
+  if (value === "all") return "كل الأقسام";
+  if (value === "car") return "سيارة";
+  if (value === "motorcycle") return "دراجة نارية";
+  return value;
+}
+
+function buildSectionFilterOptions() {
+  if (!el.sectionFilter) return;
+  el.sectionFilter.innerHTML = "";
+  ["all", "car", "motorcycle"].forEach((section) => {
+    const opt = document.createElement("option");
+    opt.value = section;
+    opt.textContent = getSectionLabel(section);
+    el.sectionFilter.appendChild(opt);
+  });
+
+  const exists = [...el.sectionFilter.options].some((o) => o.value === state.activeSection);
+  if (!exists) state.activeSection = "all";
+  el.sectionFilter.value = state.activeSection;
+}
 
 function applyMasteredFilter() {
-  state.questions = state.allQuestions.filter(
-    (q) => !state.mastered.has(q.number)
-  );
+  state.questions = state.allQuestions.filter((q) => {
+    if (state.mastered.has(q.number)) return false;
+    if (state.activeSection === "all") return true;
+    const section = normalizeSection(q.section);
+    if (state.activeSection === "motorcycle") return section === "motorcycle";
+    if (state.activeSection === "car") return isCarSection(section);
+    return true;
+  });
 }
 
 function keyOf(qIdx) {
@@ -83,11 +125,19 @@ function updateProgress() {
 }
 
 function render() {
+  if (!state.questions.length) {
+    el.quiz.innerHTML = `<div class="card"><p>لا توجد أسئلة في هذا القسم حالياً.</p></div>`;
+    updateProgress();
+    el.finishBtn.disabled = true;
+    return;
+  }
+
   const frag = document.createDocumentFragment();
   state.questions.forEach((q, qIdx) => {
     frag.appendChild(buildCard(q, qIdx));
   });
   el.quiz.replaceChildren(frag);
+  el.finishBtn.disabled = false;
   updateProgress();
 }
 
@@ -273,6 +323,7 @@ function toggleCheat(qIdx) {
 }
 
 function finishQuiz() {
+  if (!state.questions.length) return;
   state.finished = true;
   let score = 0;
   const newlyMastered = [];
@@ -326,10 +377,21 @@ function finishQuiz() {
   });
   cards.forEach((c) => el.quiz.appendChild(c));
 
-  el.resultText.textContent = `النتيجة: ${score} من ${state.questions.length} (${((score / state.questions.length) * 100).toFixed(1)}%)`;
+  const pct = ((score / state.questions.length) * 100).toFixed(1);
+  el.resultText.textContent = `النتيجة: ${score} من ${state.questions.length} (${pct}%)`;
   el.resultBar.classList.remove("hidden");
   el.finishBtn.disabled = true;
   window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function changeSection(value) {
+  state.activeSection = value || "all";
+  persistSection();
+  state.finished = false;
+  el.resultBar.classList.add("hidden");
+  el.finishBtn.disabled = false;
+  applyMasteredFilter();
+  render();
 }
 
 function resetQuiz() {
@@ -378,6 +440,7 @@ async function init() {
     el.quiz.innerHTML = `<div class="card"><p style="color:var(--wrong)">تعذّر تحميل الأسئلة: ${err.message}</p></div>`;
     return;
   }
+  buildSectionFilterOptions();
   applyMasteredFilter();
   console.log("[quiz] mastered:", [...state.mastered], "visible:", state.questions.length, "/", state.allQuestions.length);
   render();
@@ -386,6 +449,9 @@ async function init() {
 el.finishBtn.addEventListener("click", finishQuiz);
 el.resetBtn.addEventListener("click", resetQuiz);
 if (el.loadAllBtn) el.loadAllBtn.addEventListener("click", loadAllQuestions);
+if (el.sectionFilter) {
+  el.sectionFilter.addEventListener("change", (e) => changeSection(e.target.value));
+}
 el.retryBtn.addEventListener("click", resetQuiz);
 
 init();

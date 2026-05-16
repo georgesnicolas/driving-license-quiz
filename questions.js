@@ -6834,5 +6834,2446 @@
       }
     ],
     "image": null
+  }, {
+  "number": 1,
+  "section": "motorcycle",
+  "category": "Law",
+  "question": "ما السبب الرئيسي الذي يجعل من صيانة دراجتك الآلية بانتظام ضروريا؟",
+  "answers": [
+    {
+      "text": "تمكين الدراجة من حمل حقائب",
+      "correct": false
+    },
+    {
+      "text": "تسريع الدراجة أكثر من المركبات الأخرى",
+      "correct": false
+    },
+    {
+      "text": "حفظ صلاحية الدراجة للسير",
+      "correct": true
+    }
+  ],
+  "image": null
+},
+  {
+  "number": 2,
+  "section": "motorcycle",
+  "category": "Law",
+  "question": "أنت تقود دراجتك الآلية على طريق ريفية. ماذا تفعل إذا صادفت مواشي تستخدم الطريق؟",
+  "answers": [
+    {
+      "text": "تمنحها مساحة كافية",
+      "correct": true
+    },
+    {
+      "text": "تقترب منها لإجبارها على افساح المرور",
+      "correct": false
+    },
+    {
+      "text": "تطلق بوق دراجتك",
+      "correct": false
+    }
+  ],
+  "image": null
+},
+  {
+  "number": 3,
+  "section": "motorcycle",
+  "category": "Law",
+  "question": "أنت سائق دراجة آلية تقترب من مفرق الى يمينك وتظهر لك سيارة تقترب أيضا الى المفرق ذاته. ماذا تفعل؟",
+  "answers": [
+    {
+      "text": "تخفف السرعة وتنتظر اشارة السيارة",
+      "correct": false
+    },
+    {
+      "text": "تزيد السرعة لتجاوز التقاطع دون تأخير",
+      "correct": false
+    },
+    {
+      "text": "تتوقف، لأن السيارة لها حق الأولوية",
+      "correct": true
+    }
+  ],
+  "image": null
+},
+  {
+  "number": 4,
+  "section": "motorcycle",
+  "category": "Law",
+  "question": "دراجتك الآلية متوقفة على طريق ذي اتجاهين. كيف تصعد إلى الدراجة؟",
+  "answers": [
+    {
+      "text": "من اليسار، وتشغّل الفرامل الأمامية",
+      "correct": false
+    },
+    {
+      "text": "من اليمين، وترخي الفرامل الخلفية",
+      "correct": true
+    },
+    {
+      "text": "من اليمين، وتترك الفرامل",
+      "correct": false
+    }
+  ],
+  "image": null
+},
+  {
+  "number": 5,
+  "section": "motorcycle",
+  "category": "Law",
+  "question": "أنت تقود دراجتك الآلية في المدينة ليلاً. الطرق مبللة بعد المطر. كيف ستؤثر عليك انعكاسات الأسطح المبللة؟",
+  "answers": [
+    {
+      "text": "ستُسهّل رؤية الأجسام غير المضاءة",
+      "correct": false
+    },
+    {
+      "text": "ستُسهّل التوقف",
+      "correct": false
+    },
+    {
+      "text": "ستُصعّب رؤية الأجسام غير المضاءة",
+      "correct": true
+    }
+  ],
+  "image": null
+},
+  {
+  "number": 6,
+  "section": "motorcycle",
+  "category": "Law",
+  "question": "تشعر بالبرد عند قيادة دراجتك الآلية. كيف سيؤثر ذلك عليك؟",
+  "answers": [
+    {
+      "text": "سوف تكون أكثر يقظة",
+      "correct": false
+    },
+    {
+      "text": "سوف تفقد التركيز",
+      "correct": true
+    },
+    {
+      "text": "سوف تتفاعل بشكل أسرع",
+      "correct": false
+    }
+  ],
+  "image": null
+},
+  {
+    "number": 7,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أنت تقود دراجتك الآلية ليلاً، وتُبهرك أضواء مركبة تقترب من أمامك. ماذا يجب أن تفعل؟",
+    "answers": [
+      {
+        "text": "تبطئ وتتوقف إذا لزم الأمر",
+        "correct": true
+      },
+      {
+        "text": "تطفئ مصابيحك الأمامية",
+        "correct": false
+      },
+      {
+        "text": "تستخدم الضوء العالي",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 8,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "دراجتك الآلية لا تحتوي على \"فرامل مُرتبطة\". في حالة الطوارئ، ما الذي يجب عليك فعله للتوقف بسرعة؟",
+    "answers": [
+      {
+        "text": "تشغيل الفرامل الأمامية مباشرة قبل الفرامل الخلفية",
+        "correct": true
+      },
+      {
+        "text": "تشغيل الفرامل الخلفية مباشرة قبل الفرامل الأمامية",
+        "correct": false
+      },
+      {
+        "text": "تشغيل الفرامل الخلفية فقط",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 9,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أي مما يلي قد يحتاج إلى تعديل عند حمل راكب خلفي؟",
+    "answers": [
+      {
+        "text": "العادم",
+        "correct": false
+      },
+      {
+        "text": "المصابيح الأمامية",
+        "correct": true
+      },
+      {
+        "text": "إشارتي الإتجاه",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 10,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ما هو سطح الطريق الأكثر تأثيراً على خسارة ثبات دراجتك الآلية؟",
+    "answers": [
+      {
+        "text": "الحصى غير المتماسكة",
+        "correct": true
+      },
+      {
+        "text": "(الاسمنت) الباطون",
+        "correct": false
+      },
+      {
+        "text": "الأسفلت",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  
+  {
+    "number": 11,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "متى يُسمح لك بالتوقف على جانب الطريق السريعة؟",
+    "answers": [
+      {
+        "text": "إذا شعرت بالتعب وتحتاج إلى الراحة",
+        "correct": false
+      },
+      {
+        "text": "إذا تجاوزت المخرج",
+        "correct": false
+      },
+      {
+        "text": "في حالات الطوارئ فقط",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 12,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أين يجب على مستخدمي الطريق توخي الحذر بشكل خاص لمراقبة راكبي الدراجات الآلية والمركبات الأخرى؟",
+    "answers": [
+      {
+        "text": "عند التقاطعات",
+        "correct": true
+      },
+      {
+        "text": "عند معابر المشاة",
+        "correct": false
+      },
+      {
+        "text": "على الطرق ذات الاتجاهين",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 13,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "كيف يتم ضبط \"سلسلة\" الدفع النهائية؟",
+    "answers": [
+      {
+        "text": "ارخاء عزق الاطار الخلفي وشده الى الموقع المناسب",
+        "correct": true
+      },
+      {
+        "text": "ارخاء عزق المحرك وشده الى الموقع المناسب",
+        "correct": false
+      },
+      {
+        "text": "الجوابان السابقان صحيحان",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 14,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "لقد قمت بضبط \"سلسلة الدفع\" بشكل غير صحيح، ما المشكلة التي قد تحصل؟",
+    "answers": [
+      {
+        "text": "قراءة غير دقيقة لعداد السرعة",
+        "correct": false
+      },
+      {
+        "text": "ضبط غير صحيح للعجلة الخلفية",
+        "correct": true
+      },
+      {
+        "text": "فقدان قوة الكبح",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 15,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "تحتاج إلى نفخ إطاري دراجتك. كيف يمكنك معرفة الضغط المناسب؟",
+    "answers": [
+      {
+        "text": "بالتحقق من دليل استخدام الدراجة",
+        "correct": true
+      },
+      {
+        "text": "يظهر على جانب الإطار",
+        "correct": false
+      },
+      {
+        "text": "يظهر مختوماً على العجلة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 16,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أنت تحمل راكباً في العربة الجانبية. ما الذي يجب عليك تعديله لاستيعاب الوزن الزائد؟",
+    "answers": [
+      {
+        "text": "ميزان العجلتين الأمامية والخلفية",
+        "correct": false
+      },
+      {
+        "text": "عيار الوزن على الشوكة الأمامية",
+        "correct": false
+      },
+      {
+        "text": "عيار الوزن على ممتص الصدمات الخلفي",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 17,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "لماذا يجب عليك التحقق من فوق كتفك قبل الانعطاف يساراً إلى طريق جانبي؟",
+    "answers": [
+      {
+        "text": "للتحقق من وجود حركة مرور قادمة",
+        "correct": false
+      },
+      {
+        "text": "للتحقق من عدم وجود مركبات تتجاوزك",
+        "correct": true
+      },
+      {
+        "text": "للتأكد من كون الطريق الجانبي حراً",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 18,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ما الإجراءات الوقائية التي يمكنك اتخاذها لحماية دراجتك الآلية من خطر الحريق؟",
+    "answers": [
+      {
+        "text": "تجنب القيادة بخزان وقود ممتلئ",
+        "correct": false
+      },
+      {
+        "text": "التحقق من عدم وجود أي رائحة وقود (بنزين) قوية",
+        "correct": true
+      },
+      {
+        "text": "استخدام بنزين خالي من الرصاص",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 19,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أنت تنعطف يساراً للخروج من طريق بإتجاهين إلى طريق بإتجاهين. ما الذي يجب عليك فعله قبل الخروج؟",
+    "answers": [
+      {
+        "text": "تتحقق من عرض الحاجز الوسطي",
+        "correct": true
+      },
+      {
+        "text": "تلتزم الجانب الأيسر من المسرب",
+        "correct": false
+      },
+      {
+        "text": "تتوقف، ثم تختار غيار سرعة منخفضاً جداً",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 20,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ما الذي يجعل رؤيتك مع دراجتك أكثر وضوحاً في ضوء النهار؟",
+    "answers": [
+      {
+        "text": "ارتداء خوذة سوداء",
+        "correct": false
+      },
+      {
+        "text": "ارتداء خوذة زاهية الألوان",
+        "correct": true
+      },
+      {
+        "text": "ارتداء سترة داكنة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 21,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ما الذي يجب عليك التحقق منه بعد الانتهاء من شد \"سلسلة الدفع\"؟",
+    "answers": [
+      {
+        "text": "ميزان العجلة الخلفية",
+        "correct": true
+      },
+      {
+        "text": "ضغط الإطار الخلفي",
+        "correct": false
+      },
+      {
+        "text": "سلامة ممتص الصدمات الخلفي",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 22,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "حصل معك حادث تصادم مع مركبة وأصيب شخص وتضررت دراجتك الآلية. ما الذي يجب عليك معرفته؟",
+    "answers": [
+      {
+        "text": "تفاصيل تأمين مركبة السائق",
+        "correct": true
+      },
+      {
+        "text": "ما إذا كان السائق هو مالك المركبة",
+        "correct": false
+      },
+      {
+        "text": "ما إذا كان السائق مرخصاً له بالقيادة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 23,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ماذا تفعل عندما تواجه عائقاً على جانبك من الطريق؟",
+    "answers": [
+      {
+        "text": "تزيد سرعتك لتتجاوز أولاً",
+        "correct": false
+      },
+      {
+        "text": "تستمر، فلديك الأولوية",
+        "correct": false
+      },
+      {
+        "text": "تفسح الطريق للمركبات المقبلة",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 24,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "لقد عبرت للتو مياهاً عميقة. ماذا يجب أن تفعل للتأكد من أن فراملك تعمل بشكل صحيح؟",
+    "answers": [
+      {
+        "text": "تتجنب نهائياً استخدام الفرامل لبضعة كيلومترات",
+        "correct": false
+      },
+      {
+        "text": "تسير ببطء مع الضغط برفق على الفرامل",
+        "correct": true
+      },
+      {
+        "text": "تتوقف لمدة ساعة على الأقل لإعطائها وقتاً لتجف",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 25,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "بعض الطرق ذات الاتجاهين تُقسم إلى ثلاثة مسارب. لماذا تُعد هذه الطرق خطرة بشكل خاص؟",
+    "answers": [
+      {
+        "text": "لأنه يُمكن للمركبات أن تتجاوز عن جهة اليمين",
+        "correct": false
+      },
+      {
+        "text": "لأنه يُسمح باستخدام المسرب الأوسط لتجاوز المركبات في كلا الاتجاهين",
+        "correct": true
+      },
+      {
+        "text": "لأن المسرب الأوسط يُستخدم فقط في حالات الطوارئ",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 26,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "قبل بدء الرحلة من الحكمة تخطيط مسارها. كيف يمكنك القيام بذلك؟",
+    "answers": [
+      {
+        "text": "تتواصل مع ورش تصليح قريبة من المسار",
+        "correct": false
+      },
+      {
+        "text": "تطّلع على الخريطة",
+        "correct": true
+      },
+      {
+        "text": "تطّلع على دليل استخدام دراجتك",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 27,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "تتألف عدة الوقاية الشخصية لسائق الدراجة الآلية وراكبها من",
+    "answers": [
+      {
+        "text": "الخوذة والقفازات",
+        "correct": false
+      },
+      {
+        "text": "الخوذة والسترة والقفازات والسروال والحذاء",
+        "correct": true
+      },
+      {
+        "text": "الخوذة والقفازات والحذاء",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 28,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "وصلت إلى موقع حادث. شخص ينزف بشدة من جرح في ذراعه وغير مغروز فيها شيء. ماذا يجب أن تفعل؟",
+    "answers": [
+      {
+        "text": "تضغط على الجرح وتترك الذراع منخفضة",
+        "correct": false
+      },
+      {
+        "text": "تضغط على الجرح وترفع الذراع",
+        "correct": true
+      },
+      {
+        "text": "تترك الجرح ينزف",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 29,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "في حالة وقوع حادث، لا يتنفس المصاب. ماذا يجب أن تفعل أثناء مساعدته على استعادة تنفسه؟",
+    "answers": [
+      {
+        "text": "تديره إلى جانبه",
+        "correct": false
+      },
+      {
+        "text": "تهزّه بقوة",
+        "correct": false
+      },
+      {
+        "text": "تميل رأسه للخلف برفق",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 30,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "وقع حادث تصادم. راكب الدراجة الآلية مُصاب وفاقد للوعي. لماذا لا يجب عادة أن تنزع خوذته، إلا عند الضرورة القصوى؟",
+    "answers": [
+      {
+        "text": "قد لا يرغب في ذلك",
+        "correct": false
+      },
+      {
+        "text": "قد يُؤدي ذلك إلى إصابة أكثر خطورة",
+        "correct": true
+      },
+      {
+        "text": "قد يتعرّض لحر شديد او برد شديد مجموعة2",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  
+  {
+    "number": 1,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "يبدأ سائق سيارة مبتدئ بال دخول الى مسربك من طريق جانبي على الي مين . ماذا تفعل؟ ",
+    "answers": [
+      {
+        "text": "ت ستع د للإبطاء والتوقف",
+        "correct": true
+      },
+      {
+        "text": "ت دعه ي دخل ، ثم سير ت خلفه مباشرة",
+        "correct": false
+      },
+      {
+        "text": "ت نعطف إلى الطريق الجانبي",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 2,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "يقود سائق سيارة مبتدئ المركبة التي أمامك. ماذا تفعل؟",
+    "answers": [
+      {
+        "text": "تحافظ على هدوئك وتتحلى بالصبر",
+        "correct": true
+      },
+      {
+        "text": "تضع مصابيحك الأمامية على الضوء العالي (أنوار الطريق)",
+        "correct": false
+      },
+      {
+        "text": "تطلق بوقك وتتجاوزه",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 3,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أنت تنقل حمولة على رف أمتعة دراجتك الآلية. ما الذي يجب عليك التأكد منه؟",
+    "answers": [
+      {
+        "text": "أن تكون الحمولة مغطاة بغطاء بلاستيكي",
+        "correct": false
+      },
+      {
+        "text": "أن تكون الحمولة مرئية بوضوح",
+        "correct": false
+      },
+      {
+        "text": "أن تكون الحمولة مثبتة بإحكام",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 4,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "لقد مررت للتو في تج مع ماء عميق . ما الذي يجب عليك التحقق منه بعد ان تكون قد ابتعدت عن الماء؟",
+    "answers": [
+      {
+        "text": "الفرامل",
+        "correct": true
+      },
+      {
+        "text": "المصابيح الأمامية",
+        "correct": false
+      },
+      {
+        "text": "التوجيه",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 5,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ت هطل الأمطار بعد فترة طويلة من الحر والجفاف . كيف يؤثر ذلك على سطح الطريق؟",
+    "answers": [
+      {
+        "text": "قد تُغط ى بالحصى",
+        "correct": false
+      },
+      {
+        "text": "قد تصبح زلقة بشكل غير طبيعي",
+        "correct": true
+      },
+      {
+        "text": "قد يتفتت سطح الطريق وي تكسر",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 6,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "عند الانعطاف، ماذا يجب أن يفعل راكب الدراجة الخلفي؟",
+    "answers": [
+      {
+        "text": "ي عط ي إشارات اتجاه ب ذراع يه نيابة عنك",
+        "correct": false
+      },
+      {
+        "text": "ينحني جانب ا لرؤية الأمام",
+        "correct": false
+      },
+      {
+        "text": "ني نح ي معك في المنعطفات",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 7,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ما الذي يمكن أن يسببه وجود حمولة ثقيلة في صندوق الدراجة الآلية العلوي؟",
+    "answers": [
+      {
+        "text": "تحسين الكبح",
+        "correct": false
+      },
+      {
+        "text": "تحسين توازن الدراجة",
+        "correct": false
+      },
+      {
+        "text": "تخفي ض توازن الدراجة",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 8,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "في ظروف القيادة العادية، كيف يجب أن تستخدم الفرامل؟",
+    "answers": [
+      {
+        "text": "استخدام الفرامل الخلفية أولا ثم الأمامية",
+        "correct": false
+      },
+      {
+        "text": "عند الانعطاف بالدراجة الآلية أو خلال قيادتها عبر منعطف",
+        "correct": false
+      },
+      {
+        "text": "عندما تكون الدراجة الآلية في اتجاه مستقيم وتتحرك في خط مستقيم",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 9,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أي مما يلي ينتج عن شرب الكحول؟",
+    "answers": [
+      {
+        "text": "ردود فعل أسرع",
+        "correct": false
+      },
+      {
+        "text": "زيادة التركيز",
+        "correct": false
+      },
+      {
+        "text": "ضعف القدرة على التمييز",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 10,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "دراجتك الآلية مجهزة بـ \"محول حفاز\" (catalytic converter). ما الذي يقلله؟",
+    "answers": [
+      {
+        "text": "ضجيج المحرك",
+        "correct": false
+      },
+      {
+        "text": "انبعاثات العادم",
+        "correct": true
+      },
+      {
+        "text": "ضجيج العادم",
+        "correct": false
+      }
+    ],
+    "image": null
+  }
+,
+  
+  {
+    "number": 11,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "انتظرت بعض الوقت لًلنعطاف يسارا إلى طريق جانبي. ماذا يجب أن تفعل قبل االنعطاف مباشرة؟",
+    "answers": [
+      {
+        "text": "اإللتفات يميناً ويسارا - إلقاء نظرة منقذة للحياة",
+        "correct": true
+      },
+      {
+        "text": "االقتراب الى جهة الرصيف",
+        "correct": false
+      },
+      {
+        "text": "التلويح لحركة المرور القادمة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 12,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "متى يجب زيادة ضغط إطارات دراجتك اآللية؟",
+    "answers": [
+      {
+        "text": "عند حمل حمولة ثقيلة",
+        "correct": true
+      },
+      {
+        "text": "عند القيادة في طقس حار",
+        "correct": false
+      },
+      {
+        "text": "عند القيادة في طقس ممطر",
+        "correct": false
+      }
+    ],
+    "image": null
+  },  
+  {
+    "number": 13,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "يُقدّم لك صديق خوذة أمان مستعملة لتستخدمها. لماذا قد تكون هذه فكرة سيئة؟",
+    "answers": [
+      {
+        "text": "قد تكون من النوع الذي يغطي كامل الوجه",
+        "correct": false
+      },
+      {
+        "text": "قد تكون تالفة",
+        "correct": true
+      },
+      {
+        "text": "ستخالف القانون",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 14,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "كيف تُحافظ على الفرامل التي تعمل باألسًلك؟",
+    "answers": [
+      {
+        "text": "بفحصها في درجة حرارة التشغيل العادية",
+        "correct": false
+      },
+      {
+        "text": "بتزييتها وضبطها بانتظام",
+        "correct": true
+      },
+      {
+        "text": "بإزالة أي حركة حرة للرافعة أو الدواسة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 15,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "تتكون مسافة التوقف اإلجمالية من مسافة التفكير ومسافة الكبح. أنت على طريق جاف وجيد، مع فرامل وإطارات جيدة. ما هي مسافة الكبح النموذجية عند سرعة 75 كلم في الساعة؟",
+    "answers": [
+      {
+        "text": "24 مترا",
+        "correct": false
+      },
+      {
+        "text": "38 مترًا",
+        "correct": true
+      },
+      {
+        "text": "55 مترا",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 16,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "لست متأكداً مما إذا كان دواء السعال سيؤثر على قدرتك على القيادة بأمان. ماذا تفعل؟",
+    "answers": [
+      {
+        "text": "تستشير صديقاً أو قريباً",
+        "correct": false
+      },
+      {
+        "text": "تستشير طبيبك او الصيدلاني",
+        "correct": true
+      },
+      {
+        "text": "لا تتناول الدواء",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 17,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "لماذا يكون سائقو الدراجات اآللية الشباب أكثر عرضة للتعرض للحوادث؟",
+    "answers": [
+      {
+        "text": "ألنهم يقودون في مجموعات",
+        "correct": false
+      },
+      {
+        "text": "ألنهم قليلو الخبرة",
+        "correct": true
+      },
+      {
+        "text": "ألنهم حذرون جدا عند التقاطعات",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 18,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أنت في طريق ذي اتجاه واحد وتريد االنعطاف يسارا. يوجد مسربين. في أي مسرب يجب عليك ان تضع دراجتك؟",
+    "answers": [
+      {
+        "text": "في المسرب األيسر",
+        "correct": true
+      },
+      {
+        "text": "في المسرب األيمن",
+        "correct": false
+      },
+      {
+        "text": "على يمين الخط الوسطي الفاصل مباشرة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 19,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "انحرف سائق مركبة من طريق جانبي أمامك، مما دفعك إلى الضغط على المكابح بقوة. ماذا يجب أن تفعل؟",
+    "answers": [
+      {
+        "text": "تضيء انوار الطريق إلظهار انزعاجك",
+        "correct": false
+      },
+      {
+        "text": "تتجاهل الخطأ وتحافظ على هدوئك",
+        "correct": true
+      },
+      {
+        "text": "تطلق بوق دراجتك إلظهار انزعاجك",
+        "correct": false
+      }
+    ],
+    "image": null
+  },  
+  {
+    "number": 20,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ماذا تفعل عندما ترى اثنين من المشاة المسنين على وشك عبور الطريق أمامك؟",
+    "answers": [
+      {
+        "text": "تكون حذراً؛ فقد يُخطئان في تقدير سرعتك",
+        "correct": true
+      },
+      {
+        "text": "تتوقع أن ينتظراك حتى تمر",
+        "correct": false
+      },
+      {
+        "text": "تزيد سرعتك لتتجاوزهما بسرعة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 21,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "من هو مستخدم الطريق األكثر عرضة للخطر عند تقاطعات الطرق؟",
+    "answers": [
+      {
+        "text": "سائق سيارة",
+        "correct": false
+      },
+      {
+        "text": "سائق شاحنة",
+        "correct": false
+      },
+      {
+        "text": "سائق دراجة آلية",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 22,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أنت تقترب من دوار. هناك خيول أمامك مباشرة. ماذا تفعل؟",
+    "answers": [
+      {
+        "text": "تمنحها مساحة كافية",
+        "correct": true
+      },
+      {
+        "text": "تطلق بوق دراجتك كتحذير",
+        "correct": false
+      },
+      {
+        "text": "تعاملها كأي مركبة أخرى",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 23,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أنت تتبع شاحنة على طريق مبلل. ماذا تفعل عندما يُصعّب رذاذ المطر رؤية الطريق أمامك؟",
+    "answers": [
+      {
+        "text": "تزيد المسافة بينك وبينها لتحسين الرؤية",
+        "correct": true
+      },
+      {
+        "text": "تبقى قريبا من الشاحنة، بعيدا عن رذاذ المطر",
+        "correct": false
+      },
+      {
+        "text": "تشغّل مصابيحك األمامية بأقصى سرعة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 24,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "متى ال يجب عليك التوقف على طريق حر ومفتوح؟",
+    "answers": [
+      {
+        "text": "في جميع األوقات",
+        "correct": true
+      },
+      {
+        "text": "خًلل ساعات النهار",
+        "correct": false
+      },
+      {
+        "text": "في اوقات الذروة وكثافة السير",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 25,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "انت تلتزم بمسافة مًلحقة طويلة بانتظار تجاوز مركبة كبيرة. ماذا تفعل إذا دخلت سيارة في هذه المسافة؟",
+    "answers": [
+      {
+        "text": "تخفف سرعتك الستعادة مسافة مالحقة آمنة",
+        "correct": true
+      },
+      {
+        "text": "تومض مصابيح الطريق",
+        "correct": false
+      },
+      {
+        "text": "تشغّل بوق السيارة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 26,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أنت تتبع مركبة كبيرة. لماذا يجب عليك الحفاظ على مسافة مًلحقة آمنة خلفها؟",
+    "answers": [
+      {
+        "text": "ألنك ستسمح للسائق برؤيتك في مرآته",
+        "correct": true
+      },
+      {
+        "text": "ألنك ستتمكن من االنعطاف بسرعة أكبر",
+        "correct": false
+      },
+      {
+        "text": "ألنك ستساعد المركبة الكبيرة على التوقف بسهولة أكبر",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 27,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "سائق المركبة التي أمامك يسير بشكل مستقيم وتعتقد أنه نسي إلغاء إشارة االنعطاف اليسرى. ماذا تفعل؟",
+    "answers": [
+      {
+        "text": "تضيء أنوارك لتنبيه السائق",
+        "correct": false
+      },
+      {
+        "text": "تتجاوز من اليمين إذا كان ذلك ممكنا",
+        "correct": true
+      },
+      {
+        "text": "تبقيه خلف وال تتجاوزه",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 28,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أنت تتبع مركبة على مسافة آمنة على طريق مبلل. يتجاوزك سائق آخر ويدخل ضمن مسافة المًلحقة التي تركتها أمامك. ماذا تفعل؟",
+    "answers": [
+      {
+        "text": "تخفف سرعتك الستعادة مسافة مالحقة آمنة",
+        "correct": true
+      },
+      {
+        "text": "تضيء مصابيحك األمامية كتحذير",
+        "correct": false
+      },
+      {
+        "text": "تحاول التجاوز بأقرب فرصة سانحة آمنة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 29,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "وُضع شخص مصاب في وضعية المعالجة. إنه فاقد للوعي ولكنه يتنفس بشكل طبيعي. ما الذي يجب فعله أيضا؟",
+    "answers": [
+      {
+        "text": "تتأكد من أن مجرى الهواء للتنفس مفتوح",
+        "correct": true
+      },
+      {
+        "text": "تضع ذراعيه الى جانبه",
+        "correct": false
+      },
+      {
+        "text": "تضغط بقوة بين كتفيه",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 30,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أنت أول من يصل إلى موقع حادث يُصاب فيه أشخاص بجروح بالغة. لقد شغّلتَ أضواء التنبيه من الخطر وتأكدتَ من إيقاف جميع المحركات. ماذا عليكَ فعله أيضا؟",
+    "answers": [
+      {
+        "text": "تتأكد من استدعاء سيارة إسعاف",
+        "correct": true
+      },
+      {
+        "text": "تُبعد المصابين عن سياراتهم",
+        "correct": false
+      },
+      {
+        "text": "توقف السيارات األخرى وتطلب المساعدة من سائقيها",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 31,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "وقع حادث، يعاني شخص ما من حروق بالغة. ما الذي يمكنك فعله لمساعدته؟",
+    "answers": [
+      {
+        "text": "تضع مرهما على اإلصابة",
+        "correct": false
+      },
+      {
+        "text": "تغسل الحروق بسائل نظيف وبارد ومعقّم",
+        "correct": true
+      },
+      {
+        "text": "تزيل أي شيء ملتصق بالحروق",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 32,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "وقع حادث تصادم للتو. شخص مصاب مستلقٍ على طريق مزدحم. ما أول شيء يجب عليك فعله لمساعدته؟",
+    "answers": [
+      {
+        "text": "تتأكد من إبقاء المصاب دافئا",
+        "correct": false
+      },
+      {
+        "text": "تعالج المصاب من الصدمة",
+        "correct": false
+      },
+      {
+        "text": "تحذّر حركة المرور األخرى مجموعة 3",
+        "correct": true
+      }
+    ],
+    "image": null
+  }
+,
+  
+  {
+    "number": 1,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "متى ستكون مسافة توقفك اإلجمالية أطول؟",
+    "answers": [
+      {
+        "text": "عند القيادة ليًل",
+        "correct": false
+      },
+      {
+        "text": "عند صعود تلة",
+        "correct": false
+      },
+      {
+        "text": "عند القيادة مع راكب",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 2,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ما المسار الذي ال يجب عليك استخدامه عند قيادة دراجتك اآللية؟",
+    "answers": [
+      {
+        "text": "مسار التسارع",
+        "correct": false
+      },
+      {
+        "text": "مسار التجاوز",
+        "correct": false
+      },
+      {
+        "text": "مسار القطار أو الترام",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 3,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أنت تقترب من طريق سطحها حصى غير متماسكة. ماذا يجب أن تفعل؟",
+    "answers": [
+      {
+        "text": "القيادة بشكل عادي",
+        "correct": false
+      },
+      {
+        "text": "تخفيض السرعة",
+        "correct": true
+      },
+      {
+        "text": "التوقف المفاجئ",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 4,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ماذا سيحدث إذا نظرت إلى أسفل العجلة األمامية أثناء القيادة؟",
+    "answers": [
+      {
+        "text": "سيجعل توجيهك أسهل",
+        "correct": false
+      },
+      {
+        "text": "سيؤثر ذلك سلبا على توازنك",
+        "correct": true
+      },
+      {
+        "text": "ستستهلك وقودا أقل",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 5,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ما الذي يجب عليك فحصه بعد إعادة تركيب العجلة الخلفية؟",
+    "answers": [
+      {
+        "text": "حاملك الجانبي",
+        "correct": false
+      },
+      {
+        "text": "التحميل المسبق لنظام التعليق",
+        "correct": false
+      },
+      {
+        "text": "ميزان العجلة",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 6,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "كيف تختلف قيادة دراجة آلية لها عربة جانبية عن قيادة دراجة آلية منفردة؟",
+    "answers": [
+      {
+        "text": "يسمح لك بفرملة متأخرة عند وجود مخاطر",
+        "correct": false
+      },
+      {
+        "text": "يسمح لك باالنعطاف بسرعة أكبر",
+        "correct": false
+      },
+      {
+        "text": "يتطلب أسلوب قيادة مختلف",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 7,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "يُستخدم \"مفتاح فصل المحرك\":",
+    "answers": [
+      {
+        "text": "لتقليل السرعة في حاالت الطوارئ",
+        "correct": false
+      },
+      {
+        "text": "إليقاف المحرك في حاالت الطوارئ",
+        "correct": true
+      },
+      {
+        "text": "إليقاف المحرك بشكل طبيعي",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 8,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ألي غرض يجب استخدام \"مفتاح فصل المحرك\" في دراجتك اآللية؟",
+    "answers": [
+      {
+        "text": "لتوفير استهًلك البطارية",
+        "correct": false
+      },
+      {
+        "text": "إليقاف المحرك لفترة قصيرة",
+        "correct": false
+      },
+      {
+        "text": "إليقاف المحرك في حاالت الطوارئ",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 9,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "لماذا يجب توخي الحذر عند عبور سكة حديدية؟",
+    "answers": [
+      {
+        "text": "ألن المشاة يعبرون عليها",
+        "correct": false
+      },
+      {
+        "text": "ألن القضبان الفوالذية زلقة",
+        "correct": true
+      },
+      {
+        "text": "ألن خطوط القطارات دائما \"نشطة\"",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 10,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ترى نمطا بألوان قوس قزح على الطريق. ما الذي سيحذرك منه هذا؟",
+    "answers": [
+      {
+        "text": "سطح طريق مصقول",
+        "correct": false
+      },
+      {
+        "text": "وجود وقود متسرب على الطريق",
+        "correct": true
+      },
+      {
+        "text": "وجود ماء على الطريق",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 11,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "دراجتك اآللية غير مزوّدة بـ \"فرامل مُرتبطة\". ماذا تفعل عند الفرملة بشكل عادي حتى التوقف؟",
+    "answers": [
+      {
+        "text": "تضغط على كلا مقبضي الفرامل بسالسة",
+        "correct": true
+      },
+      {
+        "text": "تضغط على أي من مقبضي الفرامل برفق",
+        "correct": false
+      },
+      {
+        "text": "تضغط على الفرامل الخلفية فقط",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 12,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "هطلت األمطار بعد فترة جفاف طويلة. كيف سيؤثر ذلك على سطح الطريق؟",
+    "answers": [
+      {
+        "text": "ستكون مغمورة بالمياه",
+        "correct": false
+      },
+      {
+        "text": "ستكون خشنة",
+        "correct": false
+      },
+      {
+        "text": "ستكون زلقة",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 13,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "كيف يؤثر التقدم في السن على قدرة كبار السن على القيادة؟",
+    "answers": [
+      {
+        "text": "لن يستخدموا إشارات المرور عند التقاطعات",
+        "correct": false
+      },
+      {
+        "text": "سيحتاجون إلى نظارات لقراءة إشارات المرور",
+        "correct": false
+      },
+      {
+        "text": "سيستغرقون وقتا أطول في االستجابة للمخاطر",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 14,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ما المركبات التي يجب أن تستخدم المسرب األيمن على مسلك طريق سريعة مؤلف من عدة مسارب؟",
+    "answers": [
+      {
+        "text": "جميع انواع المركبات",
+        "correct": true
+      },
+      {
+        "text": "المركبات الكبيرة فقط",
+        "correct": false
+      },
+      {
+        "text": "المركبات البطيئة فقط",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 15,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "يوجد جرار زراعي أمامك. تريد تجاوزه ولكنك غير متأكد من ان التجاوز آمن. ماذا تفعل؟",
+    "answers": [
+      {
+        "text": "تتبع مركبة أخرى تتجاوز الجرار",
+        "correct": false
+      },
+      {
+        "text": "تطلق بوق دراجتك إلجبار الجرار على التوقف",
+        "correct": false
+      },
+      {
+        "text": "تبقى خلف الجرار إذا كنت تشك في سالمة انجاز مناورة التجاوز",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 16,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أنت تقترب من تقاطع مزدحم. ماذا تفعل عندما تدرك في اللحظة األخيرة أنك في المسرب الخطأ؟",
+    "answers": [
+      {
+        "text": "تستمر بالسير في هذا المسرب",
+        "correct": true
+      },
+      {
+        "text": "تتوقف ريثما يتم إخًلء التقاطع",
+        "correct": false
+      },
+      {
+        "text": "تستخدم إشارات اإلتجاه لإلنتقال الى المسرب الصحيح",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 17,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "كيف ستتصرف مع السائقين الذين يبدون عديمي الخبرة؟",
+    "answers": [
+      {
+        "text": "عليك أن تكون صبورًا وتستعد لرد فعلهم البطيء",
+        "correct": true
+      },
+      {
+        "text": "عليك أن تتجاوزهم في أسرع وقت ممكن",
+        "correct": false
+      },
+      {
+        "text": "عليك أن تطلق بوق دراجتك لتحذيرهم من وجودك",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 18,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ماذا تفعل عند القيادة في ظروف الضباب؟",
+    "answers": [
+      {
+        "text": "تتجنب استخدام المصابيح األمامية الخافتة",
+        "correct": false
+      },
+      {
+        "text": "تتبع عن قرب أضواء السيارات األخرى",
+        "correct": false
+      },
+      {
+        "text": "تزيد وقتًا إضافيا على مدة رحلتك المتوقعة",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 19,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ماذا تفعل عند القيادة في تحويلة سير على طريق؟",
+    "answers": [
+      {
+        "text": "تحافظ على مسافة كافية من المركبة التي أمامك",
+        "correct": true
+      },
+      {
+        "text": "تبقى قريبا من المركبة التي أمامك لتقليل الطوابير",
+        "correct": false
+      },
+      {
+        "text": "تغيّر المسارات للحفاظ على انسيابية حركة المرور",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 20,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "يُسمح لك باستخدام بوق الدراجة:",
+    "answers": [
+      {
+        "text": "إلعطائك حق األولوية",
+        "correct": false
+      },
+      {
+        "text": "إلجبار السائقين البطيئين على التجاوز",
+        "correct": false
+      },
+      {
+        "text": "لتحذير اآلخرين من وجودك",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 21,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "دراجتك في حالة الوقوف على الطريق ليًل. أين يجب عليك استخدام أضواء الوقوف؟",
+    "answers": [
+      {
+        "text": "عندما يكون السير سريعاً او كثيفا",
+        "correct": true
+      },
+      {
+        "text": "عند وجود خطوط متواصلة في منتصف الطريق",
+        "correct": false
+      },
+      {
+        "text": "عندما تواجه حركة مرور قادمة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 22,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ما الذي قد يسبب تآكًل مفرطا أو غير متساوٍ لإلطارات؟",
+    "answers": [
+      {
+        "text": "عطل في نظام الفرامل",
+        "correct": true
+      },
+      {
+        "text": "عطل في النظام الكهربائي",
+        "correct": false
+      },
+      {
+        "text": "عطل في علبة التروس",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 23,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "أزعجك سلوك سائق. ماذا يمكنك أن تفعل لتجاوز هذا الموقف بأمان؟",
+    "answers": [
+      {
+        "text": "تتبعه وتضيء مصابيحك األمامية",
+        "correct": false
+      },
+      {
+        "text": "تصرخ بألفاظ مسيئة",
+        "correct": false
+      },
+      {
+        "text": "تتوقف وتأخذ استراحة",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 24,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "كيف تتجاوز مركبة طويلة وبطيئة الحركة على طريق مزدحمة؟",
+    "answers": [
+      {
+        "text": "تتبعها عن قرب وتستمر في التحرك لرؤية الطريق أمامك",
+        "correct": false
+      },
+      {
+        "text": "تحافظ على مسافة كافية خلفها للتمكن من رؤية اذا ما كانت الطريق خالية",
+        "correct": true
+      },
+      {
+        "text": "تبقى خلفها حتى يلوح لك السائق بالمرور",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 25,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "متى يُسمح لك بالتوقف على يمين الطريق السريعة؟",
+    "answers": [
+      {
+        "text": "إذا كان عليك قراءة خريطة",
+        "correct": false
+      },
+      {
+        "text": "في حالة طوارئ أو عطل",
+        "correct": true
+      },
+      {
+        "text": "عندما تكون متعبا وتحتاج إلى استراحة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 26,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "المصاب ال يمكنه التنفس بشكل طبيعي ويجب إجراء ضغطات على الصدر. ما وتيرة سرعة الضغط؟",
+    "answers": [
+      {
+        "text": "60 ضغطة في الدقيقة",
+        "correct": false
+      },
+      {
+        "text": "120 ضغطة في الدقيقة",
+        "correct": true
+      },
+      {
+        "text": "240 ضغطة في الدقيقة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 27,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "وصلت إلى حادث. أحد المشاة ينزف بغزارة من جرح في ساقه. الساق ليست مكسورة وال يوجد شيء في الجرح. ماذا يجب أن تفعل؟",
+    "answers": [
+      {
+        "text": "تربت على الجرح إليقاف النزيف",
+        "correct": false
+      },
+      {
+        "text": "تبقي كلتا ساقيه ممدودتين على األرض",
+        "correct": false
+      },
+      {
+        "text": "ترفع الساق النازفة لتخفيف النزيف",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 1,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "يعتبر اإللتفاف وسط شارع عام مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثانية",
+        "correct": true
+      },
+      {
+        "text": "الثالثة",
+        "correct": false
+      },
+      {
+        "text": "الرابعة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 2,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان مخالفة مواصفات الخوذة الواقية يعتبر مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثانية",
+        "correct": true
+      },
+      {
+        "text": "الثالثة",
+        "correct": false
+      },
+      {
+        "text": "الرابعة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 3,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان االقتراب من المركبات بمسافة تقل عن 50 سم يعتبر مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثانية",
+        "correct": true
+      },
+      {
+        "text": "الثالثة",
+        "correct": false
+      },
+      {
+        "text": "الرابعة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 4,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان السير جنبا الى جنب مع مركبة او دراجة أخرى يعتبر مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثانية",
+        "correct": true
+      },
+      {
+        "text": "الثالثة",
+        "correct": false
+      },
+      {
+        "text": "الرابعة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 5,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان تكرار استعمال المنبه او مواصلة استعماله يعتبر مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثانية",
+        "correct": true
+      },
+      {
+        "text": "الثالثة",
+        "correct": false
+      },
+       {
+        "text": "الرابعة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 6,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان عدم مراعاة قواعد استعمال المنبه يعتبر مخالفة سير من الفئة:",
+    "answers": [      
+      {
+        "text": "الثانية",
+        "correct": true
+      },
+      {
+        "text": "الثالثة",
+        "correct": false
+      },
+      {
+        "text": "الرابعة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 7,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان استعمال المنبه في الليل عدا حاالت الضرورة القصوى يعتبر مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثانية",
+        "correct": true
+      },
+      {
+        "text": "الثالثة",
+        "correct": false
+      },
+      {
+        "text": "الرابعة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 8,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان التوقف في األماكن المشار اليها بًلفتة ممنوع الوقوف والتوقف يعتبر مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثانية",
+        "correct": true
+      },
+      {
+        "text": "الثالثة",
+        "correct": false
+      },
+      {
+        "text": "الرابعة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 9,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان استعانة سائقي الدراجات اآللية أو الهوائية بغيرها من المركبات او الدراجات لجرها يعتبر مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثانية",
+        "correct": false
+      },
+      {
+        "text": "الثالثة",
+        "correct": true
+      },
+      {
+        "text": "الرابعة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 10,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان عدم ربط الخوذة الواقية بإحكام من سائق او راكب الدراجة اآللية يعتبر مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثانية",
+        "correct": false
+      },
+      {
+        "text": "الثالثة",
+        "correct": true
+      },
+      {
+        "text": "الرابعة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 11,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان سوق الدراجة في غير اإلتجاه المحدد يعتبر مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثالثة",
+        "correct": false
+      },
+      {
+        "text": "الرابعة",
+        "correct": true
+      },
+      {
+        "text": "الخامسة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 12,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان سوق الدراجة بعكس وجهة المرور يعتبر مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثالثة",
+        "correct": false
+      },
+      {
+        "text": "الرابعة",
+        "correct": true
+      },
+      {
+        "text": "الخامسة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 13,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "إحداث ضوضاء يزعج مستخدمي الطريق اآلخرين ومجاوريها يعتبر مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثالثة",
+        "correct": false
+      },
+      {
+        "text": "الرابعة",
+        "correct": true
+      },
+      {
+        "text": "الخامسة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 14,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "إحداث ضوضاء يزعج مستخدمي الطريق اآلخرين ومجاوريها يعتبر مخالفة سير تستدعي:",
+    "answers": [
+      {
+        "text": "حجز الدراجة في مرآب الحجز",
+        "correct": true
+      },
+      {
+        "text": "احتجاز الدراجة في مكان ضبط المخالفة",
+        "correct": false
+      },
+      {
+        "text": "اعتقال سائق الدراجة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 15,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان إجراء سباق على طرقات عامة من دون الحصول على ترخيص يعتبر مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثالثة",
+        "correct": false
+      },
+      {
+        "text": "الرابعة",
+        "correct": false
+      },
+      {
+        "text": "الخامسة",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 16,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان القيام بحركات او مناورات ذات خطورة يعتبر مخالفة سير من الفئة:",
+    "answers": [
+      {
+        "text": "الثالثة",
+        "correct": false
+      },
+      {
+        "text": "الرابعة",
+        "correct": false
+      },
+      {
+        "text": "الخامسة",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 17,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان غرامة الفئة الثانية من مخالفات السير ضمن أول أسبوعين تبلغ:",
+    "answers": [
+      {
+        "text": "مليون ليرة لبنانية",
+        "correct": true
+      },
+      {
+        "text": "مليوني ليرة لبنانية",
+        "correct": false
+      },
+      {
+        "text": "ثًلثة مًليين وخمسماية الف ليرة لبنانية",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 18,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان غرامة الفئة الثالثة من مخالفات السير ضمن أول أسبوعين تبلغ:",
+    "answers": [
+      {
+        "text": "مليون ليرة لبنانية",
+        "correct": false
+      },
+      {
+        "text": "مليوني ليرة لبنانية",
+        "correct": true
+      },
+      {
+        "text": "ثًلثة مًليين وخمسماية الف ليرة لبنانية",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 19,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان غرامة الفئة الرابعة من مخالفات السير ضمن أول أسبوعين تبلغ:",
+    "answers": [
+      {
+        "text": "مليوني ليرة لبنانية",
+        "correct": false
+      },
+      {
+        "text": "ثالثة ماليين وخمسماية الف ليرة لبنانية",
+        "correct": true
+      },
+      {
+        "text": "ثًلثين مليون ليرة لبنانية",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 20,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ان غرامة الفئة الخامسة من مخالفات السير تصل لغاية:",
+    "answers": [
+      {
+        "text": "مليوني ليرة لبنانية",
+        "correct": false
+      },
+      {
+        "text": "ثًلثة مًليين وخمسماية الف ليرة لبنانية",
+        "correct": false
+      },
+      {
+        "text": "ثالثين مليون ليرة لبنانية",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 21,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "على سائق الدراجة اآللية استخدام أنوار الدراجة:",
+    "answers": [
+      {
+        "text": "عندما تكون إنارة الطرقات غير كافية",
+        "correct": false
+      },
+      {
+        "text": "عند السير وراء مركبة",
+        "correct": false
+      },
+      {
+        "text": "في جميع االوقات",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 22,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "يسمح بركوب شخص آخر خلف سائق الدراجة إذا كانت مجهزة ومرخص لها بنقل راكب على ان ال يقل عمر الراكب عن:",
+    "answers": [
+      {
+        "text": "خمس سنوات",
+        "correct": false
+      },
+      {
+        "text": "عشر سنوات",
+        "correct": true
+      },
+      {
+        "text": "خمسة عشر سنة",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 23,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "يحظر على سائقي الدراجات اآللية قيادة دراجة آلية دون اعتمار خوذة واقية:",
+    "answers": [
+      {
+        "text": "ال يزيد عمرها عن سنة",
+        "correct": false
+      },
+      {
+        "text": "مربوطة بإحكام",
+        "correct": true
+      },
+      {
+        "text": "ال يقل وزنها عن كيلوغرام واحد",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 32,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "يتم تشغيل الفرامل خًلل تساقط المطر:",
+    "answers": [
+      {
+        "text": "باالعتماد على الفرامل الخلفية",
+        "correct": false
+      },
+      {
+        "text": "باالعتماد على الفرامل األمامية",
+        "correct": false
+      },
+      {
+        "text": "تشغيل الفرامل الخلفية واالمامية سوية وبحذر",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 33,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "من فوائد الصيانة الدورية للدراجة اآللية كل شهر او شهرين:",
+    "answers": [
+      {
+        "text": "التحقق من صًلحية الفرامل وفعالية المحرك",
+        "correct": false
+      },
+      {
+        "text": "تنظيف الدبرياج وقشاط المحرك",
+        "correct": false
+      },
+      {
+        "text": "الجوابان السابقان",
+        "correct": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 34,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ال يجب ملء الوقود خًلل دوران المحرك:",
+    "answers": [
+      {
+        "text": "لتجنب اشتعال الدراجة بسبب قرب خزان الوقود من المحرك",
+        "correct": true
+      },
+      {
+        "text": "لتجنب اشتعال الدراجة بسبب قرب خزان الوقود من العادم",
+        "correct": false
+      },
+      {
+        "text": "الجوابان السابقان",
+        "correct": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "number": 35,
+    "section": "motorcycle",
+    "category": "Law",
+    "question": "ال يجب توقف الدراجة الى جانب مركبة خًلل االنتظار في حركة المرور:",
+    "answers": [
+      {
+        "text": "لتجنب اختفاء الدراجة في البقعة العمياء لسائق المركبة",
+        "correct": false
+      },
+      {
+        "text": "لتجنب مخالفة الدراجة للفراغ الجانبي المفروض قانونا والذي يجب ان يزيد عن 75 سم",
+        "correct": false
+      },
+      {
+        "text": "الجوابان السابقان",
+        "correct": true
+      }
+    ],
+    "image": null
   }
 ];

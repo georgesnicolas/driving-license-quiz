@@ -12,6 +12,10 @@
       <h1>امتحان السوق النظري</h1>
       <div class="controls">
         <span id="progress" class="progress-badge">0 / 0</span>
+        <label for="sectionFilter" class="sr-only">قسم الأسئلة</label>
+        <select id="sectionFilter" class="select-control" aria-label="فلتر قسم الأسئلة">
+          <option value="all">كل الأقسام</option>
+        </select>
         <button id="loadAllBtn" class="btn btn-ghost" type="button">تحميل كل الأسئلة</button>
         <button id="resetBtn" class="btn btn-ghost" type="button">إعادة تعيين</button>
         <button id="finishBtn" class="btn btn-primary" type="button">إنهاء الامتحان</button>
@@ -29,6 +33,6 @@
   </div>
 
   <script src="questions.js"></script>
-  <script src="quiz.js?v=6"></script>
+  <script src="quiz.js?v=7"></script>
 </body>
 </html>
