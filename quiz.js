@@ -20,6 +20,7 @@ const state = {
   ratings: {},      // qIndex -> 'easy' | 'medium' | 'hard'
   mastered: new Set(), // set of question.number values
   activeSection: "all",
+  learningMode: false,
   finished: false,
 };
 
@@ -29,6 +30,7 @@ const el = {
   finishBtn: document.getElementById("finishBtn"),
   resetBtn: document.getElementById("resetBtn"),
   loadAllBtn: document.getElementById("loadAllBtn"),
+  learningModeBtn: document.getElementById("learningModeBtn"),
   sectionFilter: document.getElementById("sectionFilter"),
   retryBtn: document.getElementById("retryBtn"),
   resultBar: document.getElementById("resultBar"),
@@ -133,6 +135,7 @@ function render() {
     el.quiz.innerHTML = `<div class="card"><p>لا توجد أسئلة في هذا القسم حالياً.</p></div>`;
     updateProgress();
     el.finishBtn.disabled = true;
+    updateLearningModeButton();
     return;
   }
 
@@ -143,6 +146,14 @@ function render() {
   el.quiz.replaceChildren(frag);
   el.finishBtn.disabled = false;
   updateProgress();
+  updateLearningModeButton();
+}
+
+function updateLearningModeButton() {
+  if (!el.learningModeBtn) return;
+  el.learningModeBtn.classList.toggle("active", state.learningMode);
+  el.learningModeBtn.setAttribute("aria-pressed", String(state.learningMode));
+  el.learningModeBtn.textContent = state.learningMode ? "إخفاء وضع التعلّم" : "وضع التعلّم";
 }
 
 function buildCard(q, qIdx) {
@@ -258,6 +269,7 @@ function applyCardState(card, qIdx) {
   const key = internalKeyOfQuestion(q);
   const selected = state.selections[key];
   const cheatOn = !!state.cheats[key];
+  const learningModeOn = state.learningMode;
   const finished = state.finished;
   const isAnswered = selected != null;
 
@@ -279,10 +291,13 @@ function applyCardState(card, qIdx) {
       return;
     }
 
+    if (learningModeOn && answer.correct) {
+      btn.classList.add("cheat-correct");
+    }
     if (cheatOn && answer.correct) {
       btn.classList.add("cheat-correct");
     }
-    if (cheatOn) {
+    if (cheatOn || learningModeOn) {
       btn.disabled = true;
     }
     if (selected === aIdx) {
@@ -324,6 +339,16 @@ function toggleCheat(qIdx) {
     const c = el.quiz.querySelector(`.card[data-q-index="${qIdx}"]`);
     if (c) applyCardState(c, qIdx);
   }, 2000);
+}
+
+function toggleLearningMode() {
+  if (state.finished) return;
+  state.learningMode = !state.learningMode;
+  el.quiz.querySelectorAll(".card").forEach((card) => {
+    const qIdx = Number(card.dataset.qIndex);
+    applyCardState(card, qIdx);
+  });
+  updateLearningModeButton();
 }
 
 function finishQuiz() {
@@ -393,6 +418,7 @@ function changeSection(value) {
   state.activeSection = value || "all";
   persistSection();
   state.finished = false;
+  state.learningMode = false;
   el.resultBar.classList.add("hidden");
   el.finishBtn.disabled = false;
   applyMasteredFilter();
@@ -404,6 +430,7 @@ function resetQuiz() {
   state.selections = {};
   state.cheats = {};
   state.ratings = {};
+  state.learningMode = false;
   state.finished = false;
   localStorage.removeItem(STORAGE_KEY);
   localStorage.removeItem(CHEAT_KEY);
@@ -420,6 +447,7 @@ function loadAllQuestions() {
   state.selections = {};
   state.cheats = {};
   state.ratings = {};
+  state.learningMode = false;
   state.finished = false;
   localStorage.removeItem(STORAGE_KEY);
   localStorage.removeItem(CHEAT_KEY);
@@ -458,6 +486,7 @@ async function init() {
 el.finishBtn.addEventListener("click", finishQuiz);
 el.resetBtn.addEventListener("click", resetQuiz);
 if (el.loadAllBtn) el.loadAllBtn.addEventListener("click", loadAllQuestions);
+if (el.learningModeBtn) el.learningModeBtn.addEventListener("click", toggleLearningMode);
 if (el.sectionFilter) {
   el.sectionFilter.addEventListener("change", (e) => changeSection(e.target.value));
 }
